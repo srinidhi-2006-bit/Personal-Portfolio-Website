@@ -144,7 +144,7 @@ function initContactForm() {
                 }
             );
             if (response.ok) {
-                alert("Message sent successfully!");
+                alert("Message sent successfully! Thank you for reaching out.I'll get back to you soon.");
                 form.reset();
             } else {
                 alert("Failed to send message.");
