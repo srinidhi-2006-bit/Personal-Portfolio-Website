@@ -836,6 +836,16 @@ ul {
 .contact-form textarea {
     resize: vertical;
 }
+.success-msg {
+    display: none;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    background: #22c55e;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
 /*FOOTER*/
 footer {
     background: #111827;

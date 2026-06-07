@@ -144,7 +144,12 @@ function initContactForm() {
                 }
             );
             if (response.ok) {
-                alert("Message sent successfully! Thank you for reaching out.I'll get back to you soon.");
+                const successMsg =
+                    document.getElementById("successMsg");
+                successMsg.style.display = "block";
+                setTimeout(() => {
+                    successMsg.style.display = "none";
+                }, 3000);
                 form.reset();
             } else {
                 alert("Failed to send message.");
